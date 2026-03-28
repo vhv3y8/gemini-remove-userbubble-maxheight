@@ -5,8 +5,7 @@ import {
   handleTarget
 } from "./logic"
 
-if (import.meta.env.MODE === "development")
-  console.log("[gemini remove user bubble max height] [content script started]")
+console.log("[Gemini Remove User Bubble Max Height] [content script started]")
 
 // run logic
 waitForTargetNode(selectTargetNode, (targetNode) => {
@@ -20,7 +19,6 @@ waitForTargetNode(selectTargetNode, (targetNode) => {
       }
     }
   })
-
   observer.observe(targetNode, {
     childList: true,
     subtree: true,
@@ -39,10 +37,9 @@ function waitForTargetNode(
     callback(element)
     return
   }
-  if (import.meta.env.MODE === "development")
-    console.log(
-      "[gemini remove user bubble max height] [target node is null] [waiting..]"
-    )
+  console.log(
+    "[Gemini Remove User Bubble Max Height] [target node is null] [waiting..]"
+  )
 
   // 2. if it doesn't exist, wait for it and then run callback
   const observer = new MutationObserver((mutations, obs) => {
@@ -50,7 +47,12 @@ function waitForTargetNode(
     if (target) {
       if (import.meta.env.MODE === "development")
         console.log(
-          "[gemini remove user bubble max height] [target node found!]"
+          "[Gemini Remove User Bubble Max Height] [target node found!]",
+          target
+        )
+      else
+        console.log(
+          "[Gemini Remove User Bubble Max Height] [target node found!]"
         )
       obs.disconnect()
       callback(target)

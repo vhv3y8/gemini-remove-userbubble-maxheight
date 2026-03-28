@@ -33,4 +33,11 @@ function applyStyle(element: Element) {
   const bubbleTextContainer = element.parentElement!.children[0] as HTMLElement
   // Remove max height
   bubbleTextContainer.style.maxHeight = "none"
+  if (import.meta.env.MODE === "development")
+    console.log(
+      "[Gemini Remove User Bubble Max Height] [Removed Max Height]",
+      bubbleTextContainer
+    )
+  else
+    console.log("[Gemini Remove User Bubble Max Height] [Removed Max Height]")
 }
