@@ -2,9 +2,11 @@
 
 <img src="./promo/annoying-max-height.png" width="600" />
 
-> SHOW ALL USER BUBBLE THATS HIDDEN EVEN AFTER EXPANDING IT!
+> SHOW FULL USER BUBBLE TEXT THATS HIDDEN EVEN AFTER EXPANDING IT!
 
-Simple chrome extension that shows all user bubble at gemini page thats hidden even after expanding it.
+Simple chrome extension that shows full user bubble text thats hidden even after expanding it.
+
+Seamlessly works with [Voyager (github.com)](https://github.com/Nagi-ovo/gemini-voyager).
 
 ### Notice
 
