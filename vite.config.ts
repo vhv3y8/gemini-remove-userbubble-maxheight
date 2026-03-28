@@ -24,7 +24,7 @@ export default defineConfig(({ mode }) => {
         }
       }
     },
-    plugins: [zipDistFolder()]
+    plugins: mode === "production" ? [zipDistFolder()] : []
   }
 })
 
