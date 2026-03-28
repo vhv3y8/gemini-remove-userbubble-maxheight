@@ -18,7 +18,9 @@ This is CSS `max-height` related issue, and user bubble expand/collapse `transit
 
 Github
 
-- [v1.0.0](https://github.com/vhv3y8/gemini-remove-userbubble-maxheight/releases/tag/v1.0.0) : [Download Zip](https://github.com/vhv3y8/gemini-remove-userbubble-maxheight/releases/download/v1.0.0/gemini-remove-user-bubble-max-height-1.0.0.zip)
+- [v1.1.0](https://github.com/vhv3y8/gemini-remove-userbubble-maxheight/releases/tag/v1.1.0) : [Download Zip](https://github.com/vhv3y8/gemini-remove-userbubble-maxheight/releases/download/v1.1.0/gemini-remove-user-bubble-max-height-1.1.0.zip)
+  - Fix match url so that it can run at page started with 'gemini.google.com' (without '/app') too
+- v1.0.0
 
 ### How to apply
 
