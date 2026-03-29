@@ -2,6 +2,10 @@
 
 <img src="./promo/annoying-max-height.png" width="600" />
 
+<video>
+  <source src="./promo/demonstration.mp4" type="video/mp4" />
+</video>
+
 > SHOW FULL USER BUBBLE TEXT THATS HIDDEN EVEN AFTER EXPANDING IT!
 
 Simple chrome extension that shows full user bubble text thats hidden even after expanding it.
