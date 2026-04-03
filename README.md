@@ -10,8 +10,6 @@ Simple chrome extension that shows full user bubble text thats hidden even after
 
 Seamlessly works with [Voyager (github.com)](https://github.com/Nagi-ovo/gemini-voyager).
 
-### Notice
-
 This is CSS `max-height` related issue, and user bubble expand/collapse `transition` is applied with `max-height` at gemini page.
 
 > So unfortunately `expand/collapse transition effects are disabled` if you use this.
@@ -20,7 +18,9 @@ This is CSS `max-height` related issue, and user bubble expand/collapse `transit
 
 Github
 
-- [v1.1.0](https://github.com/vhv3y8/gemini-remove-userbubble-maxheight/releases/tag/v1.1.0) : [Download Zip](https://github.com/vhv3y8/gemini-remove-userbubble-maxheight/releases/download/v1.1.0/gemini-remove-user-bubble-max-height-1.1.0.zip)
+- [v1.1.1](https://github.com/vhv3y8/gemini-remove-userbubble-maxheight/releases/tag/v1.1.1) : [Download Zip](https://github.com/vhv3y8/gemini-remove-userbubble-maxheight/releases/download/v1.1.1/gemini-remove-user-bubble-max-height-1.1.1.zip)
+  - Updated icon
+- v1.1.0
   - Fix match url so that it can run at page started with 'gemini.google.com' (without '/app') too
 - v1.0.0
 
