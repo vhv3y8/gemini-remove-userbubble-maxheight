@@ -1,4 +1,4 @@
-# Gemini Remove User Bubble Max Height
+# Gemini Remove User Bubble Max Height <img src="./promo/icon128.png" width="64" height="64" />
 
 <img src="./promo/annoying-max-height.png" width="600" />
 
